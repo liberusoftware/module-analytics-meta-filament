@@ -13,4 +13,3 @@ final class AnalyticsMetaFilamentServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'analytics-meta-filament');
     }
 }
-

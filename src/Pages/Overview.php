@@ -8,6 +8,9 @@ use Filament\Pages\Page;
 
 final class Overview extends Page
 {
+    #[\Override]
     protected string $view = 'analytics-meta-filament::overview';
+
+    #[\Override]
     protected static ?string $title = 'Meta Server-Side Tracking';
 }
